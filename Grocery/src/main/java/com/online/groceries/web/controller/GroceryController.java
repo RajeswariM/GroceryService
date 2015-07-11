@@ -172,41 +172,5 @@ public class GroceryController {
 		
 		return "viewGroceryInventory";		
 	}
-	
-	
-	/*
-	 *  updateGrocery in JSon format
-	 */
-	/*
-	@RequestMapping(value = "/showUpdateGroceryJSon/{groceryById}", produces={"application/xml", "application/json"})
-	public @ResponseBody GroceryVO showUpdateGroceryJSon(@PathVariable("groceryById")	Integer groceryById,Map<String, Object> map){
-		LOGGER.debug(loggerPrString+" showUpdateGroceryJSon ======> ");
-		GroceryVO vo = new GroceryVO();
-		try {
-			vo = groceryService.getGroceryById(groceryById);
-		} catch (GroceryServiceException gse) {
-			LOGGER.error(loggerPrString+" showUpdateGroceryJSon ======> ");
-		}
-		return vo;
-	}
-	*/
-	
 
-	/*
-	 *  getGroceryList in JSon format
-	 */
-	/*
-	@RequestMapping(value = "/getGroceryListJson", produces={"application/xml", "application/json"})
-	public @ResponseBody List<GroceryVO> getGroceryListJSon(Map<String, Object> map){
-		LOGGER.debug(loggerPrString+" getGroceryList with multiple content types, ======> ");
-		List<GroceryVO> groceryInvList = new ArrayList<GroceryVO>();
-		try {
-			groceryInvList = groceryService.getGroceriesList();	
-		} catch(GroceryServiceException gse) {
-			LOGGER.error(loggerPrString+" getGroceryList ********* "+gse.getMessage());
-		}
-		return groceryInvList;
-	}
-	*/
-	
 }
