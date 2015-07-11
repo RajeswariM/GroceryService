@@ -1,11 +1,19 @@
 The grocery application is basic version with good quality of code & unit testing.
 
-Still we can add much more standards for better production code base & maintainability
+Grocery Service provides below features:
 
-Few of the possibilities are as below.
+1)	Admin function where user can upload JSON file and replaces new data to database. 
+2)	A retrieval service where the fruits are returned with their prices and stock levels, ordered by their update date.
+3)	An admin function where the prices of the groceries can be updated
+4)	An admin function where fruits can be searched for by name and results returned.
 
-1. We can add spring mvc level Exception handlers to control standard errors
-2. Error messages can be added to provide user on certain validations & failures 
-3. We can use Hibernate cache for performance
-4. Spring AOP can be better for tracking cross-cutting activities like logging.
-5. Can implement Junit / TestNG along with mockitho   
+Technologies used:
+
+1. Spring MVC and Dependency Injection
+2. Hibernate 
+3. MySQL database
+4. Restful WebService
+5. Maven 
+6. GitHub
+
+Database scripts are located in Src\main\resources
