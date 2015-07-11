@@ -12,8 +12,7 @@ Technologies used:
 1. Spring MVC and Dependency Injection
 2. Hibernate 
 3. MySQL database
-4. Restful WebService
-5. Maven 
-6. GitHub
+4. Maven 
+5. GitHub
 
 Database scripts are located in Src\main\resources
